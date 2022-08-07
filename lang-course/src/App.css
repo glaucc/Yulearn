@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 * {
   margin: 0px;
@@ -6,20 +7,25 @@
 
 body {
   background-color: #191414;
+  color: white;
 }
 
-ul {
+a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
 
-/* .logo:hover {
+
+.logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+/* .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
+} */
+/* 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,3 +41,78 @@ ul {
   }
 } */
 
+/* Navbar */
+
+.whole-nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+/* .page-nav {
+  display: flex;
+  flex-direction: row;
+} */
+
+button {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0 25px;
+}
+
+.logo-btn, .categ{
+  width: 165px;
+}
+
+.logo-text {
+  font-family: 'Nova Round', cursive;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2%;
+
+
+  /* margin-right: 14vh;
+  width: 800px;
+  margin: 0 80px; */
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-right: 4vw; */
+  width: 57vw;
+}
+
+.categ {
+  margin-right: 10vw;
+  height: 30px;
+}
+
+.statistics > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 5px;
+}
+
+/* ¯\_(ツ)_/¯ */
+
+.stat {
+  cursor: pointer;
+}
+
+.logo-text, .categ, .stat {
+  font-family: 'Kanit', sans-serif;
+}
