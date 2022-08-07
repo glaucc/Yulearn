@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #191414;
+}
+
+ul {
+  text-decoration: none;
+}
 
 
 /* .logo:hover {
